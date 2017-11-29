@@ -77,4 +77,8 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:SharingTools/sharingtools.github.io.git
+  branch: master
+  name: SharingTools
+  email: 2126228979@qq.com
